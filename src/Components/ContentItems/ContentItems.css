@@ -1,0 +1,11 @@
+.wraper>div{
+    border: 1px solid black;
+    text-align-last: left;
+}
+
+.wraper{
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr ;
+    grid-gap: 2vw;
+}
