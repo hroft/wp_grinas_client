@@ -1,11 +1,33 @@
-.wraper>div{
+.card{
     border: 1px solid black;
+    border-radius: 15px;
     text-align-last: left;
+    width: 500px;
+    padding: 10px;
+    /* justify-self: center; */
+    /* align-self: center; */
+    justify-content: center;
+
+/* align-content: center; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-.wraper{
-    display: grid;
+.wraper {
+    /* display: grid; */
     /* grid-template-rows: 1fr 1fr 1fr; */
-    grid-template-columns: 1fr ;
-    grid-gap: 2vw;
+    /* grid-template-columns: 1fr ;
+    grid-gap: 2vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+/* <img src={row._embedded['wp:featuredmedia']['0'].source_url} alt="" /> */
+.cardItem{
+    align-self: center; 
+    justify-self: center;
+    padding-right: 10px;
 }
